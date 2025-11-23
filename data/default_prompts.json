@@ -1,0 +1,5 @@
+{
+  "categorization_prompt": "Categorize emails into: Important, Newsletter, Spam, To-Do, Personal. To-Do emails must include a direct request requiring user action. Important emails are from boss or high priority clients. if the mail sender is boss or hr categorize it as important",
+  "action_extraction_prompt": "Extract tasks from the email. Respond in JSON format with a list of objects, each having 'task' (string) and 'deadline' (string or null). If no tasks, return an empty list.",
+  "auto_reply_prompt": "If an email is a meeting request, draft a polite reply asking for an agenda. If it is a job opportunity, politely decline but ask to keep in touch. If it is from a colleague, be casual. Otherwise, draft a professional acknowledgement."
+}

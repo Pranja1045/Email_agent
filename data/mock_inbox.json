@@ -1,0 +1,322 @@
+[
+  {
+    "id": "1",
+    "sender": "boss@company.com",
+    "subject": "Urgent: Q4 Report Due",
+    "body": "Hi, I need the Q4 report by EOD tomorrow. Please ensure all financial data is included.",
+    "timestamp": "2023-10-27T09:00:00",
+    "read": false
+  },
+  {
+    "id": "2",
+    "sender": "newsletter@techweekly.com",
+    "subject": "Tech Weekly: AI is taking over",
+    "body": "In this week's issue: New AI models released, Python 4.0 rumors, and more...",
+    "timestamp": "2023-10-27T10:15:00",
+    "read": true
+  },
+  {
+    "id": "3",
+    "sender": "prince@wealth.com",
+    "subject": "Investment Opportunity",
+    "body": "Dear friend, I have a business proposal for you involving $10M transfer...",
+    "timestamp": "2023-10-26T14:30:00",
+    "read": false
+  },
+  {
+    "id": "4",
+    "sender": "team@project.com",
+    "subject": "Sync Meeting",
+    "body": "Let's sync up on the new feature launch. Are you free at 2 PM?",
+    "timestamp": "2023-10-27T11:00:00",
+    "read": false
+  },
+  {
+    "id": "5",
+    "sender": "hr@company.com",
+    "subject": "Open Enrollment",
+    "body": "It's time to choose your benefits for next year. Deadline is Nov 15.",
+    "timestamp": "2023-10-25T09:00:00",
+    "read": true
+  },
+  {
+    "id": "6",
+    "sender": "client@bigcorp.com",
+    "subject": "Feedback on Design",
+    "body": "We love the new logo! Can we tweak the blue slightly? Also, when can we see the homepage mockups?",
+    "timestamp": "2023-10-27T13:45:00",
+    "read": false
+  },
+  {
+    "id": "7",
+    "sender": "noreply@service.com",
+    "subject": "Your invoice is ready",
+    "body": "Your invoice #12345 for $50.00 is ready for payment.",
+    "timestamp": "2023-10-26T08:00:00",
+    "read": true
+  },
+  {
+    "id": "8",
+    "sender": "mom@family.com",
+    "subject": "Dinner Sunday?",
+    "body": "Are you coming over for dinner this Sunday? Dad is making lasagna.",
+    "timestamp": "2023-10-27T16:20:00",
+    "read": false
+  },
+  {
+    "id": "9",
+    "sender": "recruiter@linkedin.com",
+    "subject": "Job Opportunity at Google",
+    "body": "Hi, I came across your profile and think you'd be a great fit for our new AI team...",
+    "timestamp": "2023-10-24T10:00:00",
+    "read": true
+  },
+  {
+    "id": "10",
+    "sender": "marketing@tools.com",
+    "subject": "Last Chance: 50% Off",
+    "body": "Sale ends tonight! Don't miss out on our premium plan.",
+    "timestamp": "2023-10-27T08:00:00",
+    "read": false
+  },
+  {
+    "id": "11",
+    "sender": "devops@company.com",
+    "subject": "Server Alert: High CPU",
+    "body": "Server 'prod-db-01' is experiencing high CPU usage (95%). Please investigate.",
+    "timestamp": "2023-10-27T03:00:00",
+    "read": false
+  },
+  {
+    "id": "12",
+    "sender": "alice@colleague.com",
+    "subject": "Coffee?",
+    "body": "Hey, wanna grab coffee in 10 mins?",
+    "timestamp": "2023-10-27T14:50:00",
+    "read": false
+  },
+  {
+    "id": "13",
+    "sender": "support@software.com",
+    "subject": "Ticket #999 Resolved",
+    "body": "Your support ticket has been marked as resolved. Please rate your experience.",
+    "timestamp": "2023-10-25T15:00:00",
+    "read": true
+  },
+  {
+    "id": "14",
+    "sender": "event@meetup.com",
+    "subject": "Reminder: Python Meetup tonight",
+    "body": "Don't forget the meetup tonight at 7 PM at the Community Center.",
+    "timestamp": "2023-10-27T12:00:00",
+    "read": false
+  },
+  {
+    "id": "15",
+    "sender": "unknown@random.com",
+    "subject": "You won a prize!",
+    "body": "Click here to claim your $1000 gift card now!",
+    "timestamp": "2023-10-26T20:00:00",
+    "read": false
+  },
+  {
+    "id": "16",
+    "sender": "sarah.jenkins@marketing-guru.com",
+    "subject": "Re: Q1 Marketing Strategy Adjustment",
+    "body": "I've been reviewing the analytics from the last campaign, and I strongly believe we need to pivot our strategy for Q1. The engagement metrics on LinkedIn are down by 15%, while Twitter/X is showing unexpected growth. I propose we reallocate the budget we set aside for the webinar series and instead invest it into short-form video content and paid social ads. Let me know if you have time this afternoon to discuss the budget implications.",
+    "timestamp": "2023-10-28T08:30:00",
+    "read": false
+  },
+  {
+    "id": "17",
+    "sender": "security@bankofamerica.com",
+    "subject": "Action Required: Unusual Activity Detected",
+    "body": "We detected a login attempt from a device that we do not recognize located in Sao Paulo, Brazil. If this was you, no further action is needed. However, if you did not authorize this access, please click the link below immediately to freeze your account and reset your credentials. For your security, we have temporarily limited large transfers until we receive your verification. Please contact our fraud department at 1-800-555-0199 if you have urgent questions regarding this alert.",
+    "timestamp": "2023-10-28T02:15:00",
+    "read": false
+  },
+  {
+    "id": "18",
+    "sender": "jason@college-buddy.com",
+    "subject": "Trip to the mountains?",
+    "body": "Hey! It's been way too long since the whole group got together. Mike, Dave, and I were thinking about renting a cabin in the Smokies for the second weekend of November. We found a place with a hot tub and a massive game room, and the split would only be about $200 per person for the whole weekend. Let me know if you can make it so we can book the Airbnb before the prices go up!",
+    "timestamp": "2023-10-28T19:45:00",
+    "read": true
+  },
+  {
+    "id": "19",
+    "sender": "aws-billing@amazon.com",
+    "subject": "AWS Notification - Your Invoice is Available",
+    "body": "Your Amazon Web Services invoice for the period of September 1 - September 30 is now available. The total amount due is $145.32, which will be charged to your credit card on file. This increase is primarily due to the three new EC2 instances you provisioned in the US-East region, as well as higher than average data transfer rates on your S3 buckets. You can view the detailed breakdown of your usage and manage your cost allocation tags in the billing console.",
+    "timestamp": "2023-10-28T06:00:00",
+    "read": true
+  },
+  {
+    "id": "20",
+    "sender": "recruiter@tech-hunters.io",
+    "subject": "Senior Backend Role - Remote Opportunity",
+    "body": "I came across your GitHub repository and was really impressed with your recent contribution to the open-source data visualization library. My client is a Series B startup looking for a Senior Backend Engineer to lead their API architecture overhaul. They offer a fully remote culture, competitive equity packages, and a base salary range of $160k-$190k. If you are open to new opportunities, I would love to jump on a quick 15-minute call to share more details.",
+    "timestamp": "2023-10-29T10:15:00",
+    "read": false
+  },
+  {
+    "id": "21",
+    "sender": "subscriptions@nytimes.com",
+    "subject": "Your subscription is about to renew",
+    "body": "We hope you have been enjoying your access to The New York Times. This is a friendly reminder that your annual All Access subscription will automatically renew on November 5th at the standard rate of $140.00. If you wish to make changes to your plan or cancel your subscription, please visit your account settings page at least 24 hours before the renewal date. As a subscriber, don't forget you also have access to NYT Cooking and Wirecutter reviews.",
+    "timestamp": "2023-10-29T12:00:00",
+    "read": true
+  },
+  {
+    "id": "22",
+    "sender": "notifications@trello.com",
+    "subject": "Card Moved: 'Q4 Roadmap' to 'Done'",
+    "body": "Jessica Miller has moved the card 'Finalize Q4 Product Roadmap' from the 'In Review' list to the 'Done' list on the 'Product Management' board. She also added a comment: 'Approved by the stakeholders meeting this morning. I have attached the final PDF to the card for everyone's reference. Please archive this card next week.' You can reply to this email to add a comment to the card directly.",
+    "timestamp": "2023-10-29T14:20:00",
+    "read": false
+  },
+  {
+    "id": "23",
+    "sender": "support@uber-eats.com",
+    "subject": "We're sorry your order was late",
+    "body": "We noticed that your order from 'Spicy Thai Kitchen' arrived later than our estimated delivery time. We know how frustrating it is to wait for food, and we want to make it right. We have applied a credit of $10.00 to your account which will be automatically applied to your next order. We have also gathered feedback from the delivery partner regarding the delay. Thank you for your patience and for choosing Uber Eats.",
+    "timestamp": "2023-10-28T20:30:00",
+    "read": true
+  },
+  {
+    "id": "24",
+    "sender": "admin@gym-membership.com",
+    "subject": "Important: Facility Maintenance Schedule",
+    "body": "Dear Member, please be advised that the main weight room and the cardio theater will be closed for scheduled maintenance and equipment upgrades from November 1st to November 3rd. We are installing new treadmills and repainting the free weight area to improve your workout experience. During this time, the pool, sauna, and group fitness studio will remain open as usual. We apologize for any inconvenience this may cause and appreciate your understanding.",
+    "timestamp": "2023-10-29T09:00:00",
+    "read": false
+  },
+  {
+    "id": "25",
+    "sender": "grandma@family.com",
+    "subject": "Recipe for the apple pie",
+    "body": "Hello dear, I remember you asked me for the secret family apple pie recipe during Thanksgiving last year. I finally found the old index card I wrote it on! The trick is to use a mix of Granny Smith and Honeycrisp apples, and don't forget to put a splash of bourbon in the filling. I'm typing it all out below, but let me know if you have trouble reading it. Hope to see you soon!",
+    "timestamp": "2023-10-29T16:45:00",
+    "read": false
+  },
+  {
+    "id": "26",
+    "sender": "jira@company.com",
+    "subject": "[JIRA] (DEV-402) NullPointerException in Auth Service",
+    "body": "A new issue has been assigned to you. Issue DEV-402: NullPointerException occurring in the Authentication Service during token refresh. Priority: High. Reporter: Mark Davison. Description: When a user attempts to refresh an expired JWT token, the backend throws a 500 error instead of a 401. Logs indicate the user object is returning null in the validation step. Please investigate and provide a patch before the next deployment cycle on Tuesday.",
+    "timestamp": "2023-10-30T09:15:00",
+    "read": false
+  },
+  {
+    "id": "27",
+    "sender": "webinar@cloud-conference.com",
+    "subject": "Reminder: Serverless Architecture Summit starts in 1 hour",
+    "body": "This is a final reminder that the 'Future of Serverless Architecture' summit begins in exactly one hour. We have speakers from Google, Amazon, and Microsoft discussing the latest trends in Function-as-a-Service. Make sure your connection is stable and you have your unique access code ready. If you cannot attend the live session, a recording will be sent to all registered attendees within 48 hours of the event's conclusion.",
+    "timestamp": "2023-10-30T12:00:00",
+    "read": false
+  },
+  {
+    "id": "28",
+    "sender": "landlord@properties.com",
+    "subject": "Lease Renewal Offer - Apt 4B",
+    "body": "Your current lease for Apartment 4B is set to expire on December 31, 2023. We would love to have you stay with us for another year. Attached is the renewal offer, which includes a modest rent increase of 3% to cover rising property taxes and maintenance costs. If you choose to renew by November 15th, we will waive the amenity fee for the upcoming year. Please let us know your decision as soon as possible.",
+    "timestamp": "2023-10-30T10:00:00",
+    "read": true
+  },
+  {
+    "id": "29",
+    "sender": "alerts@monitoring.com",
+    "subject": "CRITICAL: Disk Space Low on db-slave-02",
+    "body": "System Alert: The disk usage on server 'db-slave-02' has exceeded the critical threshold of 90%. Current usage is at 92.5%. This may lead to database corruption or service outage if not addressed immediately. Automated log rotation failed to clear sufficient space. Please manually investigate the /var/log directory or consider resizing the volume. This ticket has been automatically escalated to the DevOps on-call team.",
+    "timestamp": "2023-10-30T04:00:00",
+    "read": false
+  },
+  {
+    "id": "30",
+    "sender": "promo@fashion-brand.com",
+    "subject": "Flash Sale: 48 Hours Only!",
+    "body": "Get ready to upgrade your winter wardrobe! For the next 48 hours, take an extra 40% off all clearance items and 20% off new arrivals. Use code WINTER23 at checkout. We also have free shipping on all orders over $75. Don't wait—sizes are selling out fast. Click the link below to start shopping now. Returns are accepted within 30 days of purchase. Terms and conditions apply.",
+    "timestamp": "2023-10-30T08:00:00",
+    "read": true
+  },
+  {
+    "id": "31",
+    "sender": "noreply@calendar.google.com",
+    "subject": "Invitation: Quarterly Performance Review @ Wed Nov 1",
+    "body": "You have been invited to the following event: Quarterly Performance Review. When: Wednesday, Nov 1, 2023, 2pm - 3pm. Where: Conference Room B / Google Meet. Description: Let's go over your achievements for the past quarter, discuss your goals for the rest of the year, and identify any areas where you might need more support. Please fill out the self-assessment form I sent earlier before the meeting.",
+    "timestamp": "2023-10-30T11:30:00",
+    "read": false
+  },
+  {
+    "id": "32",
+    "sender": "courier@delivery-service.com",
+    "subject": "Your package has been delivered",
+    "body": "Good news! Your package with tracking number #1Z99283 has been delivered to your front porch. No signature was required. Please check the attached photo for proof of delivery. If you cannot find your package or if there is any damage to the contents, please contact our support team within 24 hours. Thank you for using our service for your shipping needs.",
+    "timestamp": "2023-10-30T15:10:00",
+    "read": false
+  },
+  {
+    "id": "33",
+    "sender": "newsletter@indiehacker.com",
+    "subject": "How I built a $5k MRR app in 2 weeks",
+    "body": "In this week's deep dive, we interview a solo developer who leveraged the OpenAI API to build a copywriting assistant that hit $5,000 in Monthly Recurring Revenue in just 14 days. We break down his tech stack, his marketing strategy on Reddit, and the exact cold email templates he used to get his first 100 users. Plus, a curated list of 5 micro-SaaS ideas you can start building this weekend.",
+    "timestamp": "2023-10-31T07:00:00",
+    "read": true
+  },
+  {
+    "id": "34",
+    "sender": "boss@company.com",
+    "subject": "Urgent: Client escalation",
+    "body": "I just got off the phone with the VP from BigCorp, and they are extremely unhappy about the downtime they experienced yesterday. I need you to drop whatever you are working on and write a detailed Incident Report (RCA) explaining exactly what went wrong and what steps we are taking to ensure it never happens again. I need a draft on my desk by 4 PM today.",
+    "timestamp": "2023-10-31T09:45:00",
+    "read": false
+  },
+  {
+    "id": "35",
+    "sender": "pharmacy@health.com",
+    "subject": "Prescription Ready for Pickup",
+    "body": "This is an automated message to inform you that your prescription #RX-9920 is ready for pickup at our Main Street location. The copay amount due is $15.00. Our pharmacy hours are 8 AM to 9 PM, Monday through Saturday. Please remember to bring a valid photo ID when you come to collect your medication. If you have questions about your dosage, our pharmacist is available for consultation.",
+    "timestamp": "2023-10-31T13:00:00",
+    "read": false
+  },
+  {
+    "id": "36",
+    "sender": "steve@accounting.com",
+    "subject": "Missing receipts for October expenses",
+    "body": "Hi, I'm processing the expense reports for October, and I noticed that your submission is missing receipts for the client dinner on the 15th and the Uber ride on the 18th. The total amount is over the $50 limit for receipt-less claims. Could you please scan and email those to me by end of day tomorrow? Otherwise, I won't be able to approve the reimbursement in this pay cycle.",
+    "timestamp": "2023-10-31T14:30:00",
+    "read": false
+  },
+  {
+    "id": "37",
+    "sender": "courses@learning-platform.com",
+    "subject": "Certificate of Completion: Advanced Python",
+    "body": "Congratulations! You have successfully completed the 'Advanced Python: Metaprogramming and Decorators' course. Your dedication to learning has paid off. You can now download your certificate of completion to share on LinkedIn or add to your resume. We have also recommended a few follow-up courses based on your performance, including 'System Design for Python Developers' and 'AsyncIO Fundamentals'. Keep up the great work!",
+    "timestamp": "2023-10-31T16:00:00",
+    "read": true
+  },
+  {
+    "id": "38",
+    "sender": "legal@scam-alert.com",
+    "subject": "FINAL NOTICE: Lawsuit filed against you",
+    "body": "This is an official notification from the Department of Legal Affairs. We have tried to contact you multiple times regarding a lawsuit filed against your social security number for tax evasion. If you do not respond to this email within 2 hours, an arrest warrant will be issued in your name. You must contact our settlement officer immediately to resolve this matter out of court. (Note: This is a simulated phishing email).",
+    "timestamp": "2023-10-31T11:00:00",
+    "read": false
+  },
+  {
+    "id": "39",
+    "sender": "feedback@hotels.com",
+    "subject": "How was your stay at The Grand Hotel?",
+    "body": "Thank you for choosing The Grand Hotel for your recent trip. We hope you had a comfortable and relaxing stay. We are constantly striving to improve our guest experience, and we would value your honest feedback. Please take a moment to fill out this short 2-minute survey. As a token of our appreciation, completing the survey will enter you into a drawing to win a free two-night stay at any of our locations worldwide.",
+    "timestamp": "2023-11-01T09:00:00",
+    "read": true
+  },
+  {
+    "id": "40",
+    "sender": "team@slack.com",
+    "subject": "Slack: New login from Chrome on macOS",
+    "body": "We detected a new login for your Slack account associated with this email address. Device: Chrome on macOS. Location: New York, NY, USA. IP Address: 192.168.1.1. If this was you, you don't need to do anything. If you did not sign in recently, please change your password immediately and contact your workspace administrator. We recommend enabling Two-Factor Authentication (2FA) for added security on your account.",
+    "timestamp": "2023-11-01T10:30:00",
+    "read": false
+  }
+]

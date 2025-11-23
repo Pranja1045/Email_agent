@@ -1,0 +1,330 @@
+{
+  "40": {
+    "category": "Personal",
+    "action_items": [],
+    "summary": null,
+    "draft": null
+  },
+  "39": {
+    "category": "Newsletter",
+    "action_items": [],
+    "summary": null,
+    "draft": null
+  },
+  "38": {
+    "category": "Spam",
+    "action_items": [],
+    "summary": null,
+    "draft": null
+  },
+  "37": {
+    "category": "Newsletter",
+    "action_items": [],
+    "summary": null,
+    "draft": null
+  },
+  "36": {
+    "category": "To-Do",
+    "action_items": [
+      {
+        "task": "Scan and email receipts for client dinner on the 15th",
+        "deadline": "end of day tomorrow"
+      },
+      {
+        "task": "Scan and email receipts for Uber ride on the 18th",
+        "deadline": "end of day tomorrow"
+      }
+    ],
+    "summary": null,
+    "draft": "Subject: Re: October Expense Report\n\nHi [Sender Name],\n\nThanks for the heads-up! I'll dig those receipts up and get them to you by end of day tomorrow.\n\nBest,\n[Your Name]\n\n---\n\n**Status:** Done and uploaded.\n"
+  },
+  "35": {
+    "category": "Newsletter",
+    "action_items": [],
+    "summary": null,
+    "draft": null
+  },
+  "34": {
+    "category": "Important",
+    "action_items": [
+      {
+        "task": "Write a detailed Incident Report (RCA) explaining exactly what went wrong and what steps we are taking to ensure it never happens again",
+        "deadline": "4 PM today"
+      }
+    ],
+    "summary": null,
+    "draft": "Subject: Re: Urgent - BigCorp Downtime Incident\n\nHi [Sender Name],\n\nAcknowledged.\n\nThe recent downtime experienced by BigCorp was due to a combination of factors: a bug in a SQL query and a subsequent DDoS attack that impacted server availability.\n\nThe root cause analysis (RCA) is underway, and I am prioritizing the Incident Report with a draft due by 4 PM today, as requested. I'll include detailed explanations of the issue and the corrective actions we're taking to prevent recurrence.\n\nFortunately, the issues have been identified and the systems are now back online.\n\nThanks,\n\n[Your Name]\n"
+  },
+  "33": {
+    "category": "Newsletter",
+    "action_items": [],
+    "summary": null,
+    "draft": null
+  },
+  "32": {
+    "category": "Newsletter",
+    "action_items": [],
+    "summary": null,
+    "draft": null
+  },
+  "31": {
+    "category": "To-Do",
+    "action_items": [
+      {
+        "task": "Fill out the self-assessment form",
+        "deadline": "Wednesday, Nov 1, 2023, 2pm"
+      }
+    ],
+    "summary": null,
+    "draft": null
+  },
+  "30": {
+    "category": "Newsletter",
+    "action_items": [],
+    "summary": null,
+    "draft": null
+  },
+  "29": {
+    "category": "Important",
+    "action_items": [
+      {
+        "task": "Investigate disk usage on server 'db-slave-02'",
+        "deadline": null
+      },
+      {
+        "task": "Manually investigate the /var/log directory",
+        "deadline": null
+      },
+      {
+        "task": "Consider resizing the volume",
+        "deadline": null
+      }
+    ],
+    "summary": null,
+    "draft": null
+  },
+  "28": {
+    "category": "To-Do",
+    "action_items": [
+      {
+        "task": "Review and respond to the lease renewal offer",
+        "deadline": "November 15th"
+      }
+    ],
+    "summary": null,
+    "draft": null
+  },
+  "27": {
+    "category": "Newsletter",
+    "action_items": [],
+    "summary": null,
+    "draft": null
+  },
+  "26": {
+    "category": "To-Do",
+    "action_items": [
+      {
+        "task": "Investigate NullPointerException in Authentication Service during token refresh",
+        "deadline": "Tuesday"
+      },
+      {
+        "task": "Provide a patch",
+        "deadline": "Tuesday"
+      }
+    ],
+    "summary": null,
+    "draft": null
+  },
+  "25": {
+    "category": "Personal",
+    "action_items": [],
+    "summary": null,
+    "draft": null
+  },
+  "24": {
+    "category": "Newsletter",
+    "action_items": [],
+    "summary": null,
+    "draft": null
+  },
+  "23": {
+    "category": "Newsletter",
+    "action_items": [],
+    "summary": null,
+    "draft": null
+  },
+  "22": {
+    "category": "Newsletter",
+    "action_items": [],
+    "summary": null,
+    "draft": null
+  },
+  "21": {
+    "category": "Newsletter",
+    "action_items": [],
+    "summary": null,
+    "draft": null
+  },
+  "20": {
+    "category": "Newsletter",
+    "action_items": [],
+    "summary": null,
+    "draft": null
+  },
+  "19": {
+    "category": "Newsletter",
+    "action_items": [],
+    "summary": null,
+    "draft": null
+  },
+  "18": {
+    "category": "Personal",
+    "action_items": [],
+    "summary": null,
+    "draft": null
+  },
+  "17": {
+    "category": "Important",
+    "action_items": [
+      {
+        "task": "Freeze your account",
+        "deadline": null
+      },
+      {
+        "task": "Reset your credentials",
+        "deadline": null
+      }
+    ],
+    "summary": null,
+    "draft": null
+  },
+  "16": {
+    "category": "To-Do",
+    "action_items": [
+      {
+        "task": "Discuss the budget implications",
+        "deadline": "this afternoon"
+      }
+    ],
+    "summary": null,
+    "draft": null
+  },
+  "15": {
+    "category": "Spam",
+    "action_items": [],
+    "summary": null,
+    "draft": null
+  },
+  "14": {
+    "category": "Newsletter",
+    "action_items": [],
+    "summary": null,
+    "draft": null
+  },
+  "13": {
+    "category": "Newsletter",
+    "action_items": [],
+    "summary": null,
+    "draft": null
+  },
+  "12": {
+    "category": "Personal",
+    "action_items": [],
+    "summary": null,
+    "draft": null
+  },
+  "11": {
+    "category": "To-Do",
+    "action_items": [
+      {
+        "task": "Investigate high CPU usage (95%) on server 'prod-db-01'",
+        "deadline": null
+      }
+    ],
+    "summary": null,
+    "draft": null
+  },
+  "10": {
+    "category": "Newsletter",
+    "action_items": [],
+    "summary": null,
+    "draft": null
+  },
+  "9": {
+    "category": "Newsletter",
+    "action_items": [],
+    "summary": null,
+    "draft": null
+  },
+  "8": {
+    "category": "Personal",
+    "action_items": [],
+    "summary": null,
+    "draft": null
+  },
+  "7": {
+    "category": "Newsletter",
+    "action_items": [],
+    "summary": null,
+    "draft": null
+  },
+  "6": {
+    "category": "To-Do",
+    "action_items": [
+      {
+        "task": "Tweak the blue in the logo",
+        "deadline": null
+      },
+      {
+        "task": "See the homepage mockups",
+        "deadline": null
+      }
+    ],
+    "summary": null,
+    "draft": null
+  },
+  "5": {
+    "category": "Important",
+    "action_items": [
+      {
+        "task": "Choose your benefits for next year",
+        "deadline": "Nov 15"
+      }
+    ],
+    "summary": null,
+    "draft": null
+  },
+  "4": {
+    "category": "To-Do",
+    "action_items": [],
+    "summary": null,
+    "draft": null
+  },
+  "3": {
+    "category": "Spam",
+    "action_items": [],
+    "summary": null,
+    "draft": null
+  },
+  "2": {
+    "category": "Newsletter",
+    "action_items": [],
+    "summary": null,
+    "draft": null
+  },
+  "1": {
+    "category": "Important",
+    "action_items": [
+      {
+        "task": "Prepare the Q4 report",
+        "deadline": "EOD tomorrow"
+      },
+      {
+        "task": "Ensure all financial data is included",
+        "deadline": null
+      }
+    ],
+    "summary": null,
+    "draft": null
+  }
+}
