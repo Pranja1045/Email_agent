@@ -4,7 +4,7 @@ from typing import List, Dict, Any
 import google.generativeai as genai
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv(os.path.join(os.path.dirname(__file__), ".env"))
 
 # Configure your API key here or via environment variable
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
