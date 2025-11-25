@@ -6,7 +6,7 @@ from datetime import datetime
 
 # Configuration
 API_BASE_URL = "http://localhost:8000/api"
-
+GEMINI_API_KEY = st.secrets.get("GEMINI_API_KEY")
 st.set_page_config(
     page_title="Email Productivity Agent",
     page_icon="📧",
@@ -93,7 +93,7 @@ def chat_with_agent(message, email_id=None):
 def generate_draft(message, email_id):
     try:
         payload = {"message": message, "email_id": email_id}
-        res = requests.post(f"{API_BASE_URL}/drafts/generate", json=payload)
+        res = requests.post(f"{API_BASE_URL}/drafts/generate", json=payload,api_key=GEMINI_API_KEY)
         return res.json().get("draft", "")
     except:
         return "Error generating draft."
