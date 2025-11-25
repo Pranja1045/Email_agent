@@ -25,9 +25,11 @@ def start_backend():
             import streamlit as st
             if "GEMINI_API_KEY" in st.secrets:
                 env["GEMINI_API_KEY"] = st.secrets["GEMINI_API_KEY"]
-                print("Loaded GEMINI_API_KEY from secrets.")
+                print("DEBUG: Loaded GEMINI_API_KEY from secrets.")
+            else:
+                print("DEBUG: GEMINI_API_KEY NOT found in st.secrets.")
         except Exception as e:
-            print(f"Warning: Could not load secrets: {e}")
+            print(f"DEBUG: Warning: Could not load secrets: {e}")
 
         # Start the backend as a subprocess
         # We use sys.executable to ensure the same Python environment is used

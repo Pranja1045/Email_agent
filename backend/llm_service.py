@@ -12,6 +12,8 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 class LLMService:
     def __init__(self):
         self.mock_mode = True
+        print(f"DEBUG: Initializing LLMService. API Key present: {bool(GEMINI_API_KEY)}")
+        
         if GEMINI_API_KEY and GEMINI_API_KEY != "YOUR_API_KEY_HERE":
             try:
                 genai.configure(api_key=GEMINI_API_KEY)
@@ -21,7 +23,7 @@ class LLMService:
             except Exception as e:
                 print(f"Failed to configure Gemini API: {e}. Falling back to mock mode.")
         else:
-            print("No valid Gemini API key found. Using mock mode.")
+            print("No valid Gemini API key found (Key is None or default). Using mock mode.")
 
     def _call_gemini(self, prompt: str) -> str:
         import time
