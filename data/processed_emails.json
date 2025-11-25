@@ -6,54 +6,40 @@
     "draft": null
   },
   "39": {
-    "category": "Newsletter",
+    "category": "Error calling Gemini API (Rate Limit Exceeded).",
     "action_items": [],
     "summary": null,
     "draft": null
   },
   "38": {
-    "category": "Spam",
+    "category": "Error calling Gemini API (Rate Limit Exceeded).",
     "action_items": [],
     "summary": null,
     "draft": null
   },
   "37": {
-    "category": "Newsletter",
+    "category": "Error calling Gemini API (Rate Limit Exceeded).",
     "action_items": [],
     "summary": null,
     "draft": null
   },
   "36": {
-    "category": "To-Do",
-    "action_items": [
-      {
-        "task": "Scan and email receipts for client dinner on the 15th",
-        "deadline": "end of day tomorrow"
-      },
-      {
-        "task": "Scan and email receipts for Uber ride on the 18th",
-        "deadline": "end of day tomorrow"
-      }
-    ],
+    "category": "Error calling Gemini API (Rate Limit Exceeded).",
+    "action_items": [],
     "summary": null,
-    "draft": "Subject: Re: October Expense Report\n\nHi [Sender Name],\n\nThanks for the heads-up! I'll dig those receipts up and get them to you by end of day tomorrow.\n\nBest,\n[Your Name]\n\n---\n\n**Status:** Done and uploaded.\n"
+    "draft": null
   },
   "35": {
-    "category": "Newsletter",
+    "category": "Error calling Gemini API (Rate Limit Exceeded).",
     "action_items": [],
     "summary": null,
     "draft": null
   },
   "34": {
-    "category": "Important",
-    "action_items": [
-      {
-        "task": "Write a detailed Incident Report (RCA) explaining exactly what went wrong and what steps we are taking to ensure it never happens again",
-        "deadline": "4 PM today"
-      }
-    ],
+    "category": "Error calling Gemini API (Rate Limit Exceeded).",
+    "action_items": [],
     "summary": null,
-    "draft": "Subject: Re: Urgent - BigCorp Downtime Incident\n\nHi [Sender Name],\n\nAcknowledged.\n\nThe recent downtime experienced by BigCorp was due to a combination of factors: a bug in a SQL query and a subsequent DDoS attack that impacted server availability.\n\nThe root cause analysis (RCA) is underway, and I am prioritizing the Incident Report with a draft due by 4 PM today, as requested. I'll include detailed explanations of the issue and the corrective actions we're taking to prevent recurrence.\n\nFortunately, the issues have been identified and the systems are now back online.\n\nThanks,\n\n[Your Name]\n"
+    "draft": null
   },
   "33": {
     "category": "Newsletter",
@@ -109,6 +95,10 @@
       {
         "task": "Review and respond to the lease renewal offer",
         "deadline": "November 15th"
+      },
+      {
+        "task": "Make a decision on lease renewal",
+        "deadline": null
       }
     ],
     "summary": null,
@@ -166,7 +156,7 @@
     "draft": null
   },
   "20": {
-    "category": "Newsletter",
+    "category": "Spam",
     "action_items": [],
     "summary": null,
     "draft": null
@@ -192,6 +182,10 @@
       },
       {
         "task": "Reset your credentials",
+        "deadline": null
+      },
+      {
+        "task": "Contact fraud department if urgent questions",
         "deadline": null
       }
     ],
@@ -222,7 +216,7 @@
     "draft": null
   },
   "13": {
-    "category": "Newsletter",
+    "category": "Spam",
     "action_items": [],
     "summary": null,
     "draft": null
@@ -287,7 +281,7 @@
     "category": "Important",
     "action_items": [
       {
-        "task": "Choose your benefits for next year",
+        "task": "choose your benefits",
         "deadline": "Nov 15"
       }
     ],
@@ -316,8 +310,8 @@
     "category": "Important",
     "action_items": [
       {
-        "task": "Prepare the Q4 report",
-        "deadline": "EOD tomorrow"
+        "task": "Prepare Q4 report",
+        "deadline": "Tomorrow"
       },
       {
         "task": "Ensure all financial data is included",

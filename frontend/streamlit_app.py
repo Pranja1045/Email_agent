@@ -6,7 +6,7 @@ from datetime import datetime
 
 # Configuration
 API_BASE_URL = "http://localhost:8000/api"
-GEMINI_API_KEY = st.secrets.get("GEMINI_API_KEY")
+
 st.set_page_config(
     page_title="Email Productivity Agent",
     page_icon="📧",
