@@ -93,7 +93,7 @@ def chat_with_agent(message, email_id=None):
 def generate_draft(message, email_id):
     try:
         payload = {"message": message, "email_id": email_id}
-        res = requests.post(f"{API_BASE_URL}/drafts/generate", json=payload,api_key=GEMINI_API_KEY)
+        res = requests.post(f"{API_BASE_URL}/drafts/generate", json=payload)
         return res.json().get("draft", "")
     except:
         return "Error generating draft."

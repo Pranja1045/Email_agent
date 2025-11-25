@@ -16,11 +16,25 @@ def start_backend():
     """Starts the backend server if it's not already running."""
     if not is_port_in_use(8000):
         print("Starting backend server...")
+        
+        # Prepare environment variables
+        env = os.environ.copy()
+        
+        # Try to get API key from Streamlit secrets
+        try:
+            import streamlit as st
+            if "GEMINI_API_KEY" in st.secrets:
+                env["GEMINI_API_KEY"] = st.secrets["GEMINI_API_KEY"]
+                print("Loaded GEMINI_API_KEY from secrets.")
+        except Exception as e:
+            print(f"Warning: Could not load secrets: {e}")
+
         # Start the backend as a subprocess
         # We use sys.executable to ensure the same Python environment is used
         subprocess.Popen(
             [sys.executable, "-m", "backend.main"],
-            cwd=os.path.dirname(os.path.abspath(__file__)) # Run from root
+            cwd=os.path.dirname(os.path.abspath(__file__)), # Run from root
+            env=env
         )
         
         # Wait for the server to become available

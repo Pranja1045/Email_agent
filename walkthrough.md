@@ -33,8 +33,8 @@ This will start both the backend API (on port 8000) and the Streamlit UI.
 3.  Create a new app and select your repository.
 4.  **Main file path**: Set this to `app.py`.
 5.  **Advanced Settings**:
-    *   Add your secrets (e.g., `GEMINI_API_KEY`) in the Streamlit Cloud secrets management or environment variables.
-    *   Note: Since the backend reads from `.env`, you might need to ensure your environment variables are set in the deployment platform's configuration. The code uses `os.getenv` so it will pick up system environment variables even if `.env` is missing.
+    *   Add your secrets (e.g., `GEMINI_API_KEY`) in the Streamlit Cloud secrets management.
+    *   **Crucial**: The `app.py` script is configured to automatically read `GEMINI_API_KEY` from Streamlit secrets and pass it to the backend process. You do **not** need to manually set environment variables if you use Streamlit secrets.
 
 ## Architecture
 
